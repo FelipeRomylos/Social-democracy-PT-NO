@@ -2,7 +2,7 @@
 ## Ideological Differences and Voter Profiles in Norway (DnA) and Portugal (PS)
 
 This repository contains the code and analytical workflow for a comparative political science project investigating how social democracy differs between a Nordic and a Mediterranean context. The study focuses on **Norway (Det norske Arbeiderparti, DnA)** and **Portugal (Partido Socialista, PS)**, examining both **party ideological positioning** and **the profile of their electorates**.
-> **_NOTE:_** Original investigation was written in Spanish
+> **_NOTE:_** Original investigation was written in Spanish.
 ---
 
 ## Table of Contents
@@ -107,6 +107,8 @@ Selected survey variables:
 - **D:** Social benefits are too costly for businesses (1–5)
 - **E:** Social benefits lead to a more equal society (1–5)
 - **F:** Social benefits make people less willing to work / harm the economy (1–5)
+
+> **_Note_**: You can find the code file in [Notebook](notebook/analysis.ipynb).
 
 ---
 
