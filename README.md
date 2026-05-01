@@ -167,7 +167,7 @@ Both parties show relatively similar average welfare emphasis, but:
   #### Figure 2: Violin chart comparing *PS* and *DnA* attitudes in 2008 and 2016
 > **_NOTE:_**  Blue represets Norwegians and Red Portuguese voters. See [Data Sources](#data-sources) for variable labels.
 
-![Violin chart]()
+![Violin chart](outputs/violin.png)
 
 Overall, the results are consistent with both hypotheses:
 - Norwegian social democracy appears more consistently left-wing programmatically (H1),
