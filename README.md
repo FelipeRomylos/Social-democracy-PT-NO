@@ -2,7 +2,7 @@
 ## Ideological Differences and Voter Profiles in Norway (DnA) and Portugal (PS)
 
 This repository contains the code and analytical workflow for a comparative political science project investigating how social democracy differs between a Nordic and a Mediterranean context. The study focuses on **Norway (Det norske Arbeiderparti, DnA)** and **Portugal (Partido Socialista, PS)**, examining both **party ideological positioning** and **the profile of their electorates**.
-
+> **_NOTE:_** Original investigation was written in Spanish
 ---
 
 ## Table of Contents
@@ -14,8 +14,8 @@ This repository contains the code and analytical workflow for a comparative poli
 - [Methodology](#methodology)
 - [Key Findings](#key-findings)
 - [Limitations](#limitations)
-- [Repository Structure](#repository-structure)
 - [References](#references)
+- [Appendix](#appendix)
 
 ---
 
@@ -137,6 +137,9 @@ To compare Norwegian vs Portuguese social democratic voters, the study uses:
 - The Portuguese PS shows **high ideological volatility**, shifting from extreme left positions after democratization to moderate or near-center-right positioning in specific years.
 - The Norwegian DnA shows **high programmatic consistency**, maintaining stable social democratic positions across the period.
 
+#### Figure 1: Boxplot comparison between *PS* and *DnA* program
+![Programs comparison](outputs/gcomparacion.png)
+
 The PS presents notably more liberal programmatic moments in:
 - 1985–1987 (post-revolution stabilization and EEC accession),
 - 2005 (technocratic modernization aligned with Third Way politics),
@@ -161,6 +164,11 @@ Both parties show relatively similar average welfare emphasis, but:
   but are more skeptical about welfare-state effectiveness and economic consequences.
 - Norwegian DnA voters show greater confidence in welfare programs and stronger support for welfare as a functional and equalizing mechanism.
 
+  #### Figure 2: Violin chart comparing *PS* and *DnA* attitudes in 2008 and 2016
+> **_NOTE:_**  Blue represets Norwegians and Red Portuguese voters. See [Data Sources](#data-sources) for variable labels.
+
+![Violin chart]()
+
 Overall, the results are consistent with both hypotheses:
 - Norwegian social democracy appears more consistently left-wing programmatically (H1),
 - Portuguese social democratic voters exhibit comparatively more neoliberal-leaning attitudes toward welfare-state costs and market constraints (H2).
@@ -175,17 +183,36 @@ Overall, the results are consistent with both hypotheses:
 
 ---
 
-## Repository Structure
+## References
+- Claramunt, C. O., & Moreno, J. F. A. (2017). Crisis económica, modelos de Estados del bienestar europeos y desigualdad. Revista de Derecho de la Seguridad Social, Laborum, (13), 297-312.
+
+- Esping-Andersen, G. (1990). The Three Worlds of Welfare Capitalism.
+
+- Goetschy, J. (1995). El difícil cambio de los" modelos" sociales nórdicos (Suecia, Noruega, Finlandia, Islandia). Revista Europea de Formación Profesional, (4), 7-16.
+
+- Martín-Artiles, A., Molina, O., & Carrasquer, P. (2016). Incertidumbre y actitudes pro-redistributivas: mercados de trabajo y modelos de bienestar en Europa. Política y sociedad, 53(1), 187.
+
+- Merkel, W. (1994). Después de la" edad de oro": está la socialdemocracia condenata al declive?. In Los partidos socialistas en Europa (pp. 251-290). Barcelona: Institut d'Edicions de la Diputació de Barcelona.
+
+- Moreno, L., Pino, E. D., Marí-Klose, P., & Moreno Fuentes, F. J. (2014). Los sistemas de bienestar europeos tras la crisis económica.
+
+- Olsen, L. (2004). Lugares de trabajo no excluyentes: acuerdo tripartito en Noruega. Educación obrera, 39-43.
+
+- Rodríguez, A. M. G., Begega, S. G., & Balbona, D. L. (2016). Austeridad y ajustes sociales en el Sur de Europa: la fragmentación del modelo de bienestar Mediterráneo. RES. Revista Española de Sociología, 25(2), 261-272.
+
+- World Political Cleavages and Inequality Database. (n.d.). WPID Explorer. Retrieved April 30, 2026, from https://explore.wpid.world/
+
+- Manifesto Project. (n.d.). Manifesto Project Database. Wissenschaftszentrum Berlin für Sozialforschung (WZB). Retrieved April 30, 2026, from https://manifesto-project.wzb.eu/
+
+- European Social Survey. (2008). European Social Survey Round 4 Data (ESS-4). ESS ERIC. Retrieved April 30, 2026, from https://www.europeansocialsurvey.org/
+
+- European Social Survey. (2016). European Social Survey Round 8 Data (ESS-8). ESS ERIC. Retrieved April 30, 2026, from https://www.europeansocialsurvey.org/
 
 ---
 
-## References
-– Claramunt, C. O., & Moreno, J. F. A. (2017). Crisis económica, modelos de Estados del bienestar europeos y desigualdad. Revista de Derecho de la Seguridad Social, Laborum, (13), 297-312.
-– Esping-Andersen, G. (1990). The Three Worlds of Welfare Capitalism.
-– Goetschy, J. (1995). El difícil cambio de los" modelos" sociales nórdicos (Suecia, Noruega, Finlandia, Islandia). Revista Europea de Formación Profesional, (4), 7-16.
-– Martín-Artiles, A., Molina, O., & Carrasquer, P. (2016). Incertidumbre y actitudes pro-redistributivas: mercados de trabajo y modelos de bienestar en Europa. Política y sociedad, 53(1), 187.
-– Merkel, W. (1994). Después de la" edad de oro": está la socialdemocracia condenata al declive?. In Los partidos socialistas en Europa (pp. 251-290). Barcelona: Institut d'Edicions de la Diputació de Barcelona.
-– Moreno, L., Pino, E. D., Marí-Klose, P., & Moreno Fuentes, F. J. (2014). Los sistemas de bienestar europeos tras la crisis económica.
-– Olsen, L. (2004). Lugares de trabajo no excluyentes: acuerdo tripartito en Noruega. Educación obrera, 39-43.
-– Rodríguez, A. M. G., Begega, S. G., & Balbona, D. L. (2016). Austeridad y ajustes sociales en el Sur de Europa: la fragmentación del modelo de bienestar Mediterráneo. RES. Revista Española de Sociología, 25(2), 261-272.
+## Appendix
+![DnA Program](outputs/gprogramadna.png)
+![PS Program](outputs/gprogramaps.png)
+![NO WPID](outputs/nowpid.png)
+![PS WPID](outputs/pswpid.png)
 
